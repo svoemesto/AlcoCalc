@@ -1,2 +1,2 @@
-# AlcoCalc
- AlcoCalc
+# aclocalc.AlcoCalc
+ aclocalc.AlcoCalc

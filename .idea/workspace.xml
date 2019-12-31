@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="AlcoCalc:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="68a1bdd7-aa21-4508-8035-048e26151dd4" name="Default Changelist" comment="" />
+    <list default="true" id="68a1bdd7-aa21-4508-8035-048e26151dd4" name="Default Changelist" comment="Test">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/AlcoCalc_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alcocalc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alcocalc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_alcocalc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlcoCalc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AlcoCalc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AlcoCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aclocalc/AlcoCalc.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +33,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VVZTCEaJDhrgP0weRkVaF6ABym" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -23,13 +48,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="alcocalc" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PATH_TO_FX$/javafx.graphics.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RunManager" selected="Application.AlcoCalc">
     <configuration name="AlcoCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AlcoCalc" />
+      <option name="MAIN_CLASS_NAME" value="aclocalc.AlcoCalc" />
       <module name="AlcoCalc" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -41,6 +80,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AlcoCalc" />
+      <item itemvalue="Application.Alcocalc" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AlcoCalc" />
@@ -70,25 +113,74 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577340227359</updated>
+      <workItem from="1577624929819" duration="2912000" />
+      <workItem from="1577637156784" duration="821000" />
+      <workItem from="1577638003439" duration="1083000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="2005" height="382" key="GridCell.Tab.0.bottom" timestamp="1577341579652">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577638439765">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577638439765" />
+    <state x="1969" y="476" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577354207936">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="2005" height="382" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1577341579652" />
-    <state width="2005" height="382" key="GridCell.Tab.0.center" timestamp="1577341579651">
-      <screen x="0" y="0" width="3440" height="1400" />
+    <state x="1969" y="476" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1577354207936" />
+    <state x="748" y="168" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1577638082862">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="2005" height="382" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1577341579651" />
-    <state width="2005" height="382" key="GridCell.Tab.0.left" timestamp="1577341579651">
-      <screen x="0" y="0" width="3440" height="1400" />
+    <state x="748" y="168" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1577638082862" />
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1577626606520">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="2005" height="382" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1577341579651" />
-    <state width="2005" height="382" key="GridCell.Tab.0.right" timestamp="1577341579651">
-      <screen x="0" y="0" width="3440" height="1400" />
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577626606520" />
+    <state x="902" y="263" key="FileChooserDialogImpl" timestamp="1577638410568">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="2005" height="382" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1577341579651" />
+    <state x="902" y="263" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1577638410568" />
+    <state x="2019" y="447" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1577356082050" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1577647135114">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577647135114" />
+    <state width="2005" height="382" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1577372626543" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1577647135114">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577647135114" />
+    <state width="2005" height="382" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1577372626543" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1577647135114">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577647135114" />
+    <state width="2005" height="382" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1577372626543" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1577647135114">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577647135114" />
+    <state width="2005" height="382" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1577372626543" />
+    <state x="498" y="0" key="SettingsEditor" timestamp="1577638415338">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577638415338" />
+    <state x="1719" y="267" key="SettingsEditor/0.0.3440.1400@0.0.3440.1400" timestamp="1577356093363" />
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1577624938376">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577624938376" />
+    <state x="209" y="34" key="new project wizard" timestamp="1577630973891">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="34" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1577630973891" />
   </component>
 </project>

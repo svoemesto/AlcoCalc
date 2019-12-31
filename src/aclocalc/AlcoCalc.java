@@ -1,3 +1,5 @@
+package aclocalc;
+
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
@@ -215,7 +217,7 @@ public class AlcoCalc extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Stage window = primaryStage;
-        window.setTitle("AlcoCalc");
+        window.setTitle("aclocalc.AlcoCalc");
         window.setWidth(280);
         window.setHeight(160);
         Pane pane = new Pane();
@@ -505,8 +507,6 @@ public class AlcoCalc extends Application {
             calc();
 
         });
-
-
 
         Scene scene = new Scene(pane);
         window.setScene(scene);

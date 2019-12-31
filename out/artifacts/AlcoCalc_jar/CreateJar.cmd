@@ -1,0 +1,1 @@
+javapackager -createjar -appclass D:\Dropbox\Java\AlcoCalc\src\alcocalc\AlcoCalc -outfile D:\Dropbox\Java\AlcoCalc\out\artifacts\AlcoCalc_jar\AlcoCalc -v -nocss2bin -srcdir D:\Dropbox\Java\AlcoCalc\src

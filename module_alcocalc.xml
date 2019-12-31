@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_alcocalc" default="compile.module.alcocalc">
+  <dirname property="module.alcocalc.basedir" file="${ant.file.module_alcocalc}"/>
+  
+  <property name="module.jdk.home.alcocalc" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.alcocalc" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.alcocalc" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.alcocalc" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="alcocalc.output.dir" value="${module.alcocalc.basedir}/out/production/AlcoCalc"/>
+  <property name="alcocalc.testoutput.dir" value="${module.alcocalc.basedir}/out/test/AlcoCalc"/>
+  
+  <path id="alcocalc.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="alcocalc.module.production.classpath">
+    <path refid="${module.jdk.classpath.alcocalc}"/>
+  </path>
+  
+  <path id="alcocalc.runtime.production.module.classpath">
+    <pathelement location="${alcocalc.output.dir}"/>
+  </path>
+  
+  <path id="alcocalc.module.classpath">
+    <path refid="${module.jdk.classpath.alcocalc}"/>
+    <pathelement location="${alcocalc.output.dir}"/>
+  </path>
+  
+  <path id="alcocalc.runtime.module.classpath">
+    <pathelement location="${alcocalc.testoutput.dir}"/>
+    <pathelement location="${alcocalc.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.alcocalc">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.alcocalc">
+    <patternset refid="excluded.from.module.alcocalc"/>
+  </patternset>
+  
+  <path id="alcocalc.module.sourcepath">
+    <dirset dir="${module.alcocalc.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.alcocalc" depends="compile.module.alcocalc.production,compile.module.alcocalc.tests" description="Compile module aclocalc.AlcoCalc"/>
+  
+  <target name="compile.module.alcocalc.production" depends="register.custom.compilers" description="Compile module aclocalc.AlcoCalc; production classes">
+    <mkdir dir="${alcocalc.output.dir}"/>
+    <javac2 destdir="${alcocalc.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.alcocalc}/javac">
+      <compilerarg line="${compiler.args.alcocalc}"/>
+      <bootclasspath refid="alcocalc.module.bootclasspath"/>
+      <classpath refid="alcocalc.module.production.classpath"/>
+      <src refid="alcocalc.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.alcocalc"/>
+    </javac2>
+    
+    <copy todir="${alcocalc.output.dir}">
+      <fileset dir="${module.alcocalc.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.alcocalc.tests" depends="register.custom.compilers,compile.module.alcocalc.production" description="compile module aclocalc.AlcoCalc; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.alcocalc" description="cleanup module">
+    <delete dir="${alcocalc.output.dir}"/>
+    <delete dir="${alcocalc.testoutput.dir}"/>
+  </target>
+</project>

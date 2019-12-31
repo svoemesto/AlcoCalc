@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="AlcoCalc:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/AlcoCalc_jar</output-path>
+    <root id="archive" name="AlcoCalc.jar">
+      <element id="module-output" name="AlcoCalc" />
+    </root>
+  </artifact>
+</component>
